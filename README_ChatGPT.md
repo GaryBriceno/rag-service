@@ -12,3 +12,8 @@ Esto es “no negociable” en enterprise:
   - keys incluyen tenant_id
 
 
+To run the app:
+> uvicorn app.main:app --reload 
+
+To view the API docs:
+> http://127.0.0.1:8000/docs
